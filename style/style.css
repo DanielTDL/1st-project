@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Mono", monospace; 
+    line-height: 1 ;
+}
+
+body{
+    background-color: rgb(17, 18, 21);
+    color: rgb(161, 161, 170)
+}
+
+.jumbotron h1{
+    font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.card-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+nav ul{
+display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none ;
+  gap: 20px;
+  justify-content: end;
+}
